@@ -43,28 +43,32 @@ body {
   font-size: 1.8em;
 }
 
-
-li {
-  border-left: 1px solid #aaa;
-  border-right: 1px solid #aaa;
-}
-
-li:nth-child(1) {
-  border-top: 1px solid #aaa;
-}
-
-li:nth-child(2) {
-  border-top: 1px solid #aaa;
-  border-bottom: : 1px solid #aaa;
-}
-
-li:nth-child(3) {
-  border-bottom: : 1px solid #aaa;
-}
-
-
 .row {
 	background-color: #999999;
   color: #000000;
 	margin: 10px 5px;
+}
+
+.navbar-nav {
+	margin: 0px 0px;
+  border-bottom: : 1px solid #000000;
+}
+
+li {
+  border-left: : 1px solid #000000;
+  border-right: : : 1px solid #000000;
+}
+
+li:nth-child(1) {
+  border-top: 1px solid #000000;
+  border-bottom: : 1px solid #000000;
+}
+
+li:nth-child(2) {
+  border-top: 1px solid #000000;
+}
+
+li:nth-child(3) {
+  border-top: 1px solid #000000;
+  border-bottom: : 1px solid #000000;
 }
